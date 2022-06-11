@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Crypto/static/css/main.53411726.css",
+    "main.js": "/Crypto/static/js/main.31678785.js",
+    "static/js/787.62047e3a.chunk.js": "/Crypto/static/js/787.62047e3a.chunk.js",
+    "static/media/pexels-worldspectrum-844124.jpg": "/Crypto/static/media/pexels-worldspectrum-844124.098fabe2489852cae510.jpg",
+    "index.html": "/Crypto/index.html",
+    "main.53411726.css.map": "/Crypto/static/css/main.53411726.css.map",
+    "main.31678785.js.map": "/Crypto/static/js/main.31678785.js.map",
+    "787.62047e3a.chunk.js.map": "/Crypto/static/js/787.62047e3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53411726.css",
+    "static/js/main.31678785.js"
+  ]
+}
