@@ -1,0 +1,159 @@
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  font-size: 16px;
+  background: url("./pexels-worldspectrum-844124.jpg") fixed ;
+  background-size: cover;
+
+}
+h1{
+  color: forestgreen;
+}
+input{
+  padding-left: 10px;
+  font-size: 20px;
+  width: 400px;
+  height: 60px;
+  outline: 0;
+  background-color: rgba(255,255,255,0.4);
+  border: none;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+input:focus,input:hover{
+  background-color: white;
+  transform: scale(1.1);
+  transition: 0.3s;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(15, 15, 15, 0.3) 0px 30px 60px -30px;
+}
+table{
+  width: 1000px;
+  border-spacing: 0 1em;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(15, 15, 15, 0.3) 0px 30px 60px -30px;
+}
+thead{
+  padding: 5px;
+  background-color: rgba(44, 44, 44,0);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+tbody > tr{
+  text-align: right;
+}
+.rank{
+  text-align: center;
+  font-weight: bold;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+}
+.symbol{
+  text-align: center;
+}
+
+td{
+  padding: 20px;
+  
+}
+thead td{
+  background-color: rgba(158, 213, 226, 0.911);
+  color: rgb(76, 0, 95);
+}
+thead td:first-child{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius:10px;
+}
+thead td:last-child{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius:10px;
+  border: none;
+}
+tbody{
+  background-color: rgba(158, 213, 226, 0.644);
+  border-radius: 12px;
+  color: rgb(0, 97, 89);
+  
+}
+@media only screen and (max-width: 600px) {
+  .App{
+    background-color: rgba(109, 109, 109, 0.788);
+    background-image:none;
+    font-size: 7px;
+    width: 97%;
+  }
+  input{
+    padding-left: 10px;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    outline: 0;
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  input:focus,input:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  table{
+    width: 400px;
+    border-spacing: 0 1em;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(15, 15, 15, 0.3) 0px 30px 60px -30px;
+  }
+  td{
+    padding: 4px;
+  }  
+
+  
+}
+.name{
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.685);
+  border-radius:10px;
+
+}
+.name p{
+  font-family: monospace;
+  color: rgb(27, 75, 55);
+  font-weight: 500;
+}
+.name p span{
+  color: rgb(0, 82, 48);
+  font-size: 22px;
+  font-weight: 600;
+  border:2px solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+.refresh{
+  background-color: rgba(255,255,255,0.4);
+  padding: 5px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+.refresh:hover{
+  background-color: white;
+  transition: 0.4;
+}
+.refresh:active{
+  background-color: black;
+}
